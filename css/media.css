@@ -11,8 +11,19 @@
      .header{
            	/*display: none; */
            	background: url('/img/verstka/single-pickel.png') no-repeat left top, url('/img/verstka/single-pickel.png') no-repeat right top;
-
+         
            }
+           .arka-c {
+    text-align-last: center;
+
+}
+.contacts-inner>li{
+	display: inline;
+}
+.contacts {
+     bottom: 0;
+    text-align: center;
+}
            
 
 }

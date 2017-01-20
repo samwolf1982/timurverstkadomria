@@ -100,3 +100,14 @@ a { /* анимация */
 	text-align-last: end;
 	    top: 1em;
 }
+.contacts-row{
+	padding-top: 2em;
+}
+.large-tel{
+	font-size: 280%;
+	color: #a60c41;
+	    font-weight: bolder;
+}
+.contacts{
+	bottom: 5em;
+}
