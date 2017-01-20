@@ -17,13 +17,17 @@
     text-align-last: center;
 
 }
-.contacts-inner>li{
+.contacts-inner>li {
 	display: inline;
 }
 .contacts {
      bottom: 0;
     text-align: center;
 }
+.bottom-align-text, .bottom-line{
+	display: none;
+}
+
            
 
 }
