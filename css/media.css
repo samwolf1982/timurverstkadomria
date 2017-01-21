@@ -27,7 +27,9 @@
 .bottom-align-text, .bottom-line{
 	display: none;
 }
-
+.rigth_district_sm{
+	float: right;
+}
            
 
 }
