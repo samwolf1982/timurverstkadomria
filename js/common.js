@@ -1,4 +1,12 @@
-$(document).ready(function() {
+ $(document).ready(function(){ 
+ 	var j = jQuery.noConflict(); 
+ 	  $('.slider1').bxSlider({
+    slideWidth: 200,
+    minSlides: 2,
+    maxSlides: 3,
+    slideMargin: 10
+  });
+// $(document).ready(function() {
 
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
@@ -37,24 +45,24 @@ $(document).ready(function() {
 
 	//Каруселька
 	//Документация: http://owlgraphic.com/owlcarousel/
-	var owl = $(".carousel");
-	owl.owlCarousel({
-		items : 4
-	});
-	owl.on("mousewheel", ".owl-wrapper", function (e) {
-		if (e.deltaY > 0) {
-			owl.trigger("owl.prev");
-		} else {
-			owl.trigger("owl.next");
-		}
-		e.preventDefault();
-	});
-	$(".next_button").click(function(){
-		owl.trigger("owl.next");
-	});
-	$(".prev_button").click(function(){
-		owl.trigger("owl.prev");
-	});
+	// var owl = $(".carousel");
+	// owl.owlCarousel({
+	// 	items : 4
+	// });
+	// owl.on("mousewheel", ".owl-wrapper", function (e) {
+	// 	if (e.deltaY > 0) {
+	// 		owl.trigger("owl.prev");
+	// 	} else {
+	// 		owl.trigger("owl.next");
+	// 	}
+	// 	e.preventDefault();
+	// });
+	// $(".next_button").click(function(){
+	// 	owl.trigger("owl.next");
+	// });
+	// $(".prev_button").click(function(){
+	// 	owl.trigger("owl.prev");
+	// });
 
 	//Кнопка "Наверх"
 	//Документация:

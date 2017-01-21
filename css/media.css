@@ -1,8 +1,19 @@
 /*==========  Desktop First Method  ==========*/
 
-/* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens */ /* own screen*/
 @media only screen and (max-width : 1200px) {
-
+.thumbnail.right-caption > img {
+	float: initial;;
+	width: 99%;
+}
+.thumbnail.right-caption > .caption {
+	text-align: center;
+}
+.wrap_table{
+	padding-left: 2em;
+	    text-align: end;
+}
+ 
        
 }
 
@@ -30,7 +41,8 @@
 .rigth_district_sm{
 	float: right;
 }
-           
+
+
 
 }
 
