@@ -2,7 +2,7 @@
 include_once 'includes/header.php';
 ?>
 
-<div class="container">
+<div class="container" style="    margin-top: -5em;">
 
 	<div class="col-md-3 text-center bottom-align-text">
 		<div class="wrap-media">
@@ -160,6 +160,30 @@ include_once 'includes/header.php';
 			<div class="left-site-bar">
 
 				<div class="news-box">
+					<div class="news-title-obj"><a href="#">Объекты на 21.01.17</a> </div>
+
+				       <table class="table table-striped obj_table">
+
+    <tbody>
+      
+       	<?php
+						$max=5;
+						foreach (range(0, $max) as $key => $value) {?>
+       <tr>
+        <td >Квартиры продажа </td>
+        <td class="count_room">8</td>
+      </tr>
+      <?php }?>  
+
+    </tbody>
+  </table>
+
+
+				</div> 
+
+				<!-- end news box -->
+
+	<div class="news-box">
 					<div class="news-title"><a href="#">Новости</a> </div>
 
 					<ul class="article_ul">
@@ -197,12 +221,14 @@ include_once 'includes/header.php';
 
 				</div> 
 
-				<!-- end news box -->
 			</div>
 
 
 
-		</div></div>
+		</div>
+
+   
+		</div>
 		<!-- end left sidebar -->
 		<div  class="col-md-10" style="padding-right: 0; ">
 
@@ -320,7 +346,7 @@ include_once 'includes/header.php';
 																			</tr>
 																			<tr class="price_uan_new">
 																				<td></td>
-																				<td>89 333 $</td>     
+																				<td class=" pull-right">89 333 $</td>     
 																			</tr>
 																		</tbody>
 																	</table>
@@ -353,7 +379,7 @@ include_once 'includes/header.php';
 																			</tr>
 																			<tr class="price_uan_new">
 																				<td></td>
-																				<td>89 333 $</td>     
+																				<td class="pull-right">89 333 $</td>     
 																			</tr>
 																		</tbody>
 																	</table>
@@ -734,7 +760,7 @@ include_once 'includes/header.php';
 
 
 
-		<div class="container">
+		<div class="container hide">
 			<!-- Example row of columns -->
 			<div class="row">
 							<div id="catalog_partners" class="catalog_partners" >
@@ -805,27 +831,112 @@ include_once 'includes/header.php';
 
 
 
-		<div class="container">
+
+
+<div class="container">
 			<!-- Example row of columns -->
 			<div class="row">
-	
-<div class="slider1">
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar5"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar6"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar7"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar8"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar9"></div>
-</div>					 
+
+		<div id="catalog5"  >
+						<div class="catalog-title-about"><span>Наши партнеры</span></div>
+
+						<div class="catalog">
 
 
-			</div>
+							<div class="col-md-12">
+								<br>
+								<div id="myCarousel5" class="carousel slide" data-ride="carousel" >
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+										<li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
+										<li data-target="#myCarousel5" data-slide-to="1"></li>
+										<li data-target="#myCarousel5" data-slide-to="2"></li>
+										<li data-target="#myCarousel5" data-slide-to="3"></li>
+									</ol>
 
-			
-		</div> <!-- /container -->
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner" role="listbox">
+
+
+										<?php
+										foreach (range(0, 4) as $key => $value) {?>
+										<div class="item <?= $value==0?'active':'';?> ">
+											<div class="wrap_carousele">
+
+
+
+
+												<?php foreach (range(0, 2) as $k => $v) {?>
+
+
+												<div class="col-sm-4 clear_padding wrap_item partner_padding">
+													<div class="col-sm-12 clear_padding">
+														<div class="thumbnail  span5">
+														<a href="">	<img class="span3" src="/img/verstka/intostroi-200x50.png" alt=""></a>
+															<div class="caption">
+														
+															</div>
+														</div>
+													</div>
+
+												</div>
+
+
+										
+
+												<?php }
+												?>
+
+
+
+											</div>
+										</div>  
+										<?php }
+										?>
+
+
+
+
+									</div>
+
+									<!-- Left and right controls -->
+									<a class="left carousel-control  hide" href="#myCarousel5" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control hide" href="#myCarousel5" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+							</div>
+
+
+
+						</div>
+						<li >
+							&nbsp; 
+							<!-- !!!!! обязательно ??? потом подправить -->
+						</li>
+					</div>
+
+
+						</div>	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		<script type="text/javascript">
 			
 
@@ -851,7 +962,7 @@ include_once 'includes/header.php';
 								foreach (range(0, $max2) as $key => $value) {?>
 								<div class="catalog-item">
 									  <div class="thumbnail user_thumbnail">
-      <img src="/img/verstka/3333333.jpg" alt="...">
+      <img  src="/img/verstka/3333333.jpg" alt="...">
       <div class="caption">
         <h3 class="user_name">Екатерина</h3>
         <h5 class="user_job">Топ-менеджер</h5>

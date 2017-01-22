@@ -3,9 +3,15 @@
  	  $('.slider1').bxSlider({
     slideWidth: 200,
     minSlides: 2,
-    maxSlides: 3,
+    maxSlides: 5,
     slideMargin: 10
   });
+
+ 	  $('#carousel-06-a').carousel({
+	layout: {
+		visibleSlides: 2
+	}
+});
 // $(document).ready(function() {
 
 	//Таймер обратного отсчета
