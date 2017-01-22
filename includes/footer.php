@@ -114,6 +114,26 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="docs/assets/js/ie10-viewport-bug-workaround.js"></script>
 
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDB2kS5Y_XmTaIwC2h0uFxml1SDnrqYqnw&callback=initMap"
+			async defer>
+				
+        
+
+
+			</script>
+
+<script>
+	
+  var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -34.397, lng: 150.644},
+    zoom: 8
+  });
+}
+
+	
+</script>
 
 
 </body>

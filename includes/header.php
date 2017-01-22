@@ -67,6 +67,8 @@
 	<script src="libs/slider/jquery.bxslider.min.js"></script>
 
 
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDB2kS5Y_XmTaIwC2h0uFxml1SDnrqYqnw&callback=initMap"
+			async defer></script> -->
 		<script src="js/common.js"></script>
 	
 	

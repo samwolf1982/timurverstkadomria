@@ -1,5 +1,14 @@
 
  $(document).ready(function(){ 	
+
+$('.open_fancybox').fancybox({
+    helpers : {
+        thumbs : {
+            stationary:true
+        }
+    }
+});
+
 $(".open_fancybox").click(function() {
     
     $.fancybox.open([
@@ -19,19 +28,48 @@ $(".open_fancybox").click(function() {
         nextEffect : 'none',
         prevEffect : 'none',
         padding    : 0,
+         type: 'image',
+        autoScale: true,
+        prevEffect: 'none',
+        nextEffect: 'none',
+
         helpers    : {
             title : {
                 type: 'over'  
             },
-            thumbs : {
-                width  : 75,
-                height : 50,
-                source : function( item ) {
-                    return item.href.replace('_b.jpg', '_s.jpg');
-                }
+        thumbs: {
+                width: 50,
+                height: 50,
+                source: function (image) {
+                    return image.thumbnail;
+                },
+                position: 'bottom'  //'top', 'bottom'
             }
         }
     });
+
+
+    //  $.fancybox([{
+    //     href: 'rep/img01.jpg',
+    //     rel: 'fancybox-thumb',
+    //     class: 'fancybox-thumb'
+    // }, {
+    //     href: 'rep/img02.jpg',
+    //     rel: 'fancybox-thumb',
+    //     class: 'fancybox-thumb'
+    // }], {
+    //     // API options
+    //     type: 'image',
+    //     autoScale: true,
+    //     prevEffect: 'none',
+    //     nextEffect: 'none',
+    //     helpers: {
+    //         thumbs: {
+    //             width: 50,
+    //             height: 50
+    //         } //  thumbs
+    //     } //  helpers
+    // }); // fancyb
     
     return false;
 }); 
@@ -42,12 +80,12 @@ $(".open_fancybox").click(function() {
 // end
 });
 
- var map;
-function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -34.397, lng: 150.644},
-    zoom: 8
-  });
-}
+//   var map;
+// function initMap() {
+//   map = new google.maps.Map(document.getElementById('map'), {
+//     center: {lat: -34.397, lng: 150.644},
+//     zoom: 8
+//   });
+// }
 
 

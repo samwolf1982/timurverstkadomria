@@ -36,18 +36,7 @@
     padding-right: 2em;
 }
 
-.icon-map {
-    background-image: url("/img/verstka/on-map.png");
-    display: inline-block;
-     width: 42px;
-    height: 42px;
 
-  line-height: 14px;
-     vertical-align: sub;
-    background-position: 0px 5px;
-  background-repeat: no-repeat;
-  margin-top: 1px;
-}
 .icon-question{
 	    background-image: url("/img/verstka/question.png");
     display: inline-block;
@@ -57,18 +46,6 @@
   line-height: 14px;
      vertical-align: sub;
     background-position: 0px 5px;
-  background-repeat: no-repeat;
-  margin-top: 1px
-}
-.icon-like{
-	    background-image: url("/img/verstka/like.png");
-    display: inline-block;
-     width: 42px;
-    height: 42px;
-
-  line-height: 14px;
-     vertical-align: sub;
-     background-position: 0px 10px;
   background-repeat: no-repeat;
   margin-top: 1px
 }
@@ -83,13 +60,6 @@
     border-radius: 0;
  
 }
- #map {
-        height: 100%;
-      }
-  .wrap_gogle_map{
-  	min-height: 400px;
-  	height: 400px;
-  }
 
   .news-box{
   	margin-bottom: 4em;

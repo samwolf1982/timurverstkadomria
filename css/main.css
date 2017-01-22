@@ -8,6 +8,11 @@
 .clear_border{
   	border: none;
 }
+.clear_border_ulr{
+	border-right: none;
+	border-left: none;
+	border-top: none;
+}
 
 .clear_link{
 color: #a42465;	
@@ -17,6 +22,16 @@ color: #a42465;
     color: red;	
  text-decoration: none;
 }
+
+ #map {
+        height: 100%;
+      }
+  .wrap_gogle_map{
+  	min-height: 400px;
+  	height: 400px;
+  }
+
+
 
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic-ext,latin-ext,cyrillic);
@@ -621,6 +636,94 @@ padding: 1px;
 	    color: rgba(158,20,90,1);
 }
 
+.icon-like{
+	    background-image: url("/img/verstka/like.png");
+    display: inline-block;
+     width: 42px;
+    height: 42px;
+
+  line-height: 14px;
+     vertical-align: sub;
+     background-position: 0px 10px;
+  background-repeat: no-repeat;
+  margin-top: 1px
+}
+
+.icon-home{
+	    background-image: url("/img/verstka/home.png");
+    display: inline-block;
+     width: 42px;
+    height: 42px;
+
+  line-height: 14px;
+     vertical-align: sub;
+     background-position: 0px 10px;
+  background-repeat: no-repeat;
+  margin-top: 1px
+}
+
+.icon-detail{
+	    background-image: url("/img/verstka/detail.png");
+    display: inline-block;
+     width: 42px;
+    height: 42px;
+
+  line-height: 14px;
+     vertical-align: sub;
+     background-position: 6px 18px;
+  background-repeat: no-repeat;
+  margin-top: 1px
+}
+
+.icon-map {
+    background-image: url("/img/verstka/on-map.png");
+    display: inline-block;
+     width: 42px;
+    height: 42px;
+
+  line-height: 14px;
+     vertical-align: sub;
+    background-position: 0px 5px;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+}
+
+.icon-pdf{
+	    background-image: url("/img/verstka/pdf.png");
+    display: inline-block;
+     width: 42px;
+    height: 42px;
+
+  line-height: 14px;
+     vertical-align: sub;
+     background-position: 0px 10px;
+  background-repeat: no-repeat;
+  margin-top: 1px
+}
+
+
+.icon-phone2{
+	    background-image: url("/img/verstka/phone2.png");
+    display: inline-block;
+     width: 42px;
+    height: 42px;
+
+  line-height: 14px;
+     vertical-align: sub;
+     background-position: 0px 10px;
+  background-repeat: no-repeat;
+  margin-top: 1px
+}
+
+
+.next-icon {
+    height: 32px;
+    width: 32px;
+    background: url(/img/verstka/next.png) no-repeat center;
+}
+.glyphicon{
+color: #a42465;
+}
 
 
 /*.bx-wrapper, .bx-viewport, .bx-wrapper {height: 250px !important;}*/

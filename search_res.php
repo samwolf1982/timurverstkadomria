@@ -526,8 +526,8 @@ include_once 'includes/carusele.php';
 
 
 
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDB2kS5Y_XmTaIwC2h0uFxml1SDnrqYqnw&callback=initMap"
-			async defer></script>
+
+
 			<!--footer start from here-->
 			<?php
 			include_once 'includes/footer.php';
