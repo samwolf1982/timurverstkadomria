@@ -5,6 +5,10 @@
    margin: 0 !important;
 }
 
+.nodecor,.nodecor:hover, .nodecor * 
+        {
+           text-decoration: none !important; 
+        }
 .clear_border{
   	border: none;
 }
@@ -730,4 +734,24 @@ color: #a42465;
 }
 
 
+
+
+ul.pagination li a {
+    margin: 0 4px; /* 0 is for top and bottom. Feel free to change it */
+ color: #a42465;	
+ text-decoration: none;
+}
+
+ul.pagination li a:hover {
+    color: white;	
+ text-decoration: none;
+}
+
+
+
+
+ul.pagination li a.active, .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+	    color: white;
+    background-color: #a42465;
+}
 /*.bx-wrapper, .bx-viewport, .bx-wrapper {height: 250px !important;}*/
