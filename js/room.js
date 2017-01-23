@@ -7,16 +7,26 @@ var fancyGallery = []; // define gallery group
 		closeEffect	: 'none'
 	});
 
+  $('.bxslider1').bxSlider({
+  pagerCustom: '#bx-pager-r',
 
- var map;
-function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -34.397, lng: 150.644},
-    zoom: 8
+});
+
+    $('.bxslider2').bxSlider({
+    slideWidth: 200,
+    minSlides: 1,
+    maxSlides: 4,
+    slideMargin: 10
   });
-}
+
+
+
+
+
 
 }); // ready	
+
+
 
 
 	

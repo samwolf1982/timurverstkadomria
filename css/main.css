@@ -94,6 +94,10 @@ input.form-control{
     background-color: #a42465;
     border-color: #adadad;
 }
+.btn{
+	    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: italic;
+}
 
 
 .navbar-default {

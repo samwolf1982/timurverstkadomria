@@ -12,8 +12,14 @@ include_once 'includes/fullscreenfilter.php';
 <!-- main wrap content -->
 <div class="container wrap_content">
 
+	<div class="col-md-12 text-center">
+		
+	</div>
+
 	<!-- side bar -->
+	
 	<div class="col-md-2 text-center">
+
 		<div class="row">
 
 
@@ -21,23 +27,7 @@ include_once 'includes/fullscreenfilter.php';
 			<div class="left-site-bar">
 
 				<div class="news-box">
-					<div class="news-title-obj"><a href="#">Объекты на 21.01.17</a> </div>
-
-				       <table class="table table-striped obj_table">
-
-    <tbody>
-      
-       	<?php
-						$max=5;
-						foreach (range(0, $max) as $key => $value) {?>
-       <tr>
-        <td >Квартиры продажа </td>
-        <td class="count_room">8</td>
-      </tr>
-      <?php }?>  
-
-    </tbody>
-  </table>
+	
 
 
 				</div> 
@@ -45,40 +35,7 @@ include_once 'includes/fullscreenfilter.php';
 				<!-- end news box -->
 
 	<div class="news-box">
-					<div class="news-title"><a href="#">Новости</a> </div>
 
-					<ul class="article_ul">
-
-
-						<?php
-						$max=2;
-						foreach (range(0, $max) as $key => $value) {?>
-						<li class="article_intro">
-							<div class="wrap_in_article">
-								<div class="col-sm-12 "> <span class="pull-left data_article">06.12.2016</span></div>
-								<div class=" pull-left col-sm-12 "> <p class="pull-left  title_article"><a href="#">  Lorem ipsum dolor sit amet, </a></p></div>
-								<div class="content_article col-sm-12"><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quasi, tempora hic cupiditate itaque eaque deserunt quaerat, corrupti nam commodi impedit.</p></div>
-								<div class="col-sm-12"> <span class="details_article pull-right"><a href=""> Подробней </a></span>
-								</div> 
-								<?= $value==$max?'':' <div class="col-sm-12"><hr></div>';?>     
-							</div>
-
-						</li>
-
-
-						<?php }
-						?>
-
-
-
-
-
-						<li >
-							&nbsp; 
-							<!-- !!!!! обязательно ??? потом подправить -->
-						</li>
-
-					</ul>
 
 				</div> 
 
@@ -95,57 +52,30 @@ include_once 'includes/fullscreenfilter.php';
 
 			<div class="wrap_catalog"> 
 
-				<div id="catalog" class="catalog_upper" style="display: none;">
+				<div id="catalog" class="catalog_upper" >
 					<div class="catalog-title"><span>Каталог недвижимости "Доминанта"</span></div>
 
 					<div class="catalog">
+					<div class="panel" style="padding-top: 1em;">
+					
+ <a href="dominanta.php" target="_blank" class="btn btn-default btn-block ">Главная</a>
 
-						<?php $max=2;
-						foreach (range(0, $max) as $key => $value) {?>
-
-						<div class="col-md-4 col-sm-4">
-							<div class="tile">
-								<!-- one item -->
-								<?php
-								$max2=2;
-								foreach (range(0, $max2) as $key => $value) {?>
-								<div class="catalog-item">
-									<div class="item-title">
-										<div class="sum">2580</div>
-										<p class="item_title_p"><a style="text-transform: uppercase;" href="">Квартиры</a><br/>
-											<a href="">Одессы</a> и <a href="">Одесской области</a> </p>
-										</div>
-										<ul class="catalog-links">
-											<li><img src="/img/verstka/triangle-catalog.png"> <a class="catalog_links" href="">квартиры</a> </li>
-											<li><img src="/img/verstka/triangle-catalog.png"><a class="catalog_links" href="">квартиры до 500 тыс. грн</a> </li>
-											<li><img src="/img/verstka/triangle-catalog.png"><a class="catalog_links" href="">квартиры до 1 млн. грн</a> </li>
-											<li><img src="/img/verstka/triangle-catalog.png"><a class="catalog_links" href="">квартиры свыше 1 млн. грн</a> </li>
-										</ul>
-									</div>
-									<!-- end item -->
-
-
-									<?php }
-									?>
+ <a href="search_res.php"  target="_blank" class="btn btn-default btn-block ">Поиск</a>
 
 
 
-
-								</div>
-
-							</div>
+ <a href="room.php" target="_blank"  class="btn btn-default btn-block ">Карточка</a>
+  <a href="novostroiki.php"  target="_blank" class="btn btn-default btn-block ">Новостройки</a>
 
 
+ <a href=""  target="_blank" class="btn btn-default btn-block ">Главная</a>
 
+ <a href="" class="btn btn-default btn-block ">Главная</a>
+ <a href="" class="btn btn-default btn-block ">Главная</a>
 
-
-							<?php }
-							?>
-
-
-
-
-
+					</div>
+                        
+				           
 
 						</div>
 						<li >
@@ -157,419 +87,21 @@ include_once 'includes/fullscreenfilter.php';
 
 
 
-					<div id="catalog2" class="catalog_upper" >
-						<div class="catalog-title"><span>Каталог недвижимости "Доминанта"</span></div>
+			
 
-						<div class="catalog">
 
 
-							<div class="col-md-12">
-								<br>
-								<div id="myCarousel2" class="carousel slide" data-ride="carousel" data-interval="false" >
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
-										<li data-target="#myCarousel2" data-slide-to="1"></li>
-										<li data-target="#myCarousel2" data-slide-to="2"></li>
-										<li data-target="#myCarousel2" data-slide-to="3"></li>
-									</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner" role="listbox">
 
 
-										<?php
-										foreach (range(0, 5) as $key => $value) {?>
-										<div class="item <?= $value==0?'active':'';?> ">
-											<div class="wrap_carousele">
 
 
 
 
-												<?php foreach (range(0, 2) as $k => $v) {?>
 
 
-												<div class="col-sm-4 clear_padding wrap_item">
-													<div class="col-sm-12 clear_padding">
-														<div class="thumbnail right-caption span4">
-															<img class="span2" src="/img/verstka/img2-320x220.jpg" width="140" alt="">
-															<div class="caption">
-																<h5 class="title_new"><a href="">Жилой комплекс "Сити Парк"</a></h5>
-																<div class="address_new">Сити-парк – это комплекс из 4 жилых 9-16-этажных д..</div>
-																<div class="sqauare_new">Общая площадь: 88м<sup>2</sup></div>
-																<div class="wrap_table">
-																	<table class="table-responsive">
 
-																		<tbody>
-																			<tr class="price_uan_new">
-																				<td>Цена:</td>
-																				<td>3 333 333 UAN</td>
-																			</tr>
-																			<tr class="price_uan_new">
-																				<td></td>
-																				<td class=" pull-right">89 333 $</td>     
-																			</tr>
-																		</tbody>
-																	</table>
-																</div>
-																<p>
-																	<div class="details_new pull-right"><a href="">Подробней..</a></div>
-																</p>
-															</div>
-														</div>
-													</div>
 
-												</div>
-
-
-												<div class="col-sm-4 clear_padding wrap_item">
-													<div class="col-sm-12 clear_padding">
-														<div class="thumbnail right-caption span4">
-															<img class="span2" src="/img/verstka/img2-320x220.jpg" width="140" alt="">
-															<div class="caption">
-																<h5 class="title_new"><a href="">Жилой комплекс "Сити Парк"</a></h5>
-																<div class="address_new">Сити-парк – это комплекс из 4 жилых 9-16-этажных д..</div>
-																<div class="sqauare_new">Общая площадь: 88м<sup>2</sup></div>
-																<div class="wrap_table">
-																	<table class="table-responsive">
-
-																		<tbody>
-																			<tr class="price_uan_new">
-																				<td>Цена:</td>
-																				<td>3 333 333 UAN</td>
-																			</tr>
-																			<tr class="price_uan_new">
-																				<td></td>
-																				<td class="pull-right">89 333 $</td>     
-																			</tr>
-																		</tbody>
-																	</table>
-																</div>
-																<p>
-																	<div class="details_new pull-right"><a href="">Подробней..</a></div>
-																</p>
-															</div>
-														</div>
-													</div>
-
-												</div>
-
-												<?php }
-												?>
-
-
-
-											</div>
-										</div>  
-										<?php }
-										?>
-
-
-
-
-									</div>
-
-									<!-- Left and right controls -->
-									<a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
-										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
-										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-										<span class="sr-only">Next</span>
-									</a>
-								</div>
-							</div>
-
-
-
-						</div>
-						<li >
-							&nbsp; 
-							<!-- !!!!! обязательно ??? потом подправить -->
-						</li>
-					</div>
-
-
-
-
-
-
-
-
-
-					<div id="catalog3" class="catalog_upper" >
-						<div class="catalog-title"><span>Каталог недвижимости "Доминанта"</span></div>
-
-						<div class="catalog">
-
-
-							<div class="col-md-12">
-								<br>
-								<div id="myCarousel3" class="carousel slide" data-ride="carousel" >
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
-										<li data-target="#myCarousel3" data-slide-to="1"></li>
-										<li data-target="#myCarousel3" data-slide-to="2"></li>
-										<li data-target="#myCarousel3" data-slide-to="3"></li>
-									</ol>
-
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner" role="listbox">
-
-
-										<?php
-										foreach (range(0, 5) as $key => $value) {?>
-										<div class="item <?= $value==0?'active':'';?> ">
-											<div class="wrap_carousele">
-
-
-
-
-												<?php foreach (range(0, 2) as $k => $v) {?>
-
-
-												<div class="col-sm-4 clear_padding wrap_item">
-													<div class="col-sm-12 clear_padding">
-														<div class="thumbnail right-caption span4">
-															<img class="span2" src="/img/verstka/img2-320x220.jpg" width="140" alt="">
-															<div class="caption">
-																<h5 class="title_new"><a href="">Жилой комплекс "Сити Парк"</a></h5>
-																<div class="address_new">Сити-парк – это комплекс из 4 жилых 9-16-этажных д..</div>
-																<div class="sqauare_new">Общая площадь: 88м<sup>2</sup></div>
-																<div class="wrap_table">
-																	<table class="table-responsive">
-
-																		<tbody>
-																			<tr class="price_uan_new">
-																				<td>Цена:</td>
-																				<td>3 333 333 UAN</td>
-																			</tr>
-																			<tr class="price_uan_new">
-																				<td></td>
-																				<td>89 333 $</td>     
-																			</tr>
-																		</tbody>
-																	</table>
-																</div>
-																<p>
-																	<div class="details_new pull-right"><a href="">Подробней..</a></div>
-																</p>
-															</div>
-														</div>
-													</div>
-
-												</div>
-
-
-												<div class="col-sm-4 clear_padding wrap_item">
-													<div class="col-sm-12 clear_padding">
-														<div class="thumbnail right-caption span4">
-															<img class="span2" src="/img/verstka/img2-320x220.jpg" width="140" alt="">
-															<div class="caption">
-																<h5 class="title_new"><a href="">Жилой комплекс "Сити Парк"</a></h5>
-																<div class="address_new">Сити-парк – это комплекс из 4 жилых 9-16-этажных д..</div>
-																<div class="sqauare_new">Общая площадь: 88м<sup>2</sup></div>
-																<div class="wrap_table">
-																	<table class="table-responsive">
-
-																		<tbody>
-																			<tr class="price_uan_new">
-																				<td>Цена:</td>
-																				<td>3 333 333 UAN</td>
-																			</tr>
-																			<tr class="price_uan_new">
-																				<td></td>
-																				<td>89 333 $</td>     
-																			</tr>
-																		</tbody>
-																	</table>
-																</div>
-																<p>
-																	<div class="details_new pull-right"><a href="">Подробней..</a></div>
-																</p>
-															</div>
-														</div>
-													</div>
-
-												</div>
-
-												<?php }
-												?>
-
-
-
-											</div>
-										</div>  
-										<?php }
-										?>
-
-
-
-
-									</div>
-
-									<!-- Left and right controls -->
-									<a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
-										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
-										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-										<span class="sr-only">Next</span>
-									</a>
-								</div>
-							</div>
-
-
-
-						</div>
-						<li >
-							&nbsp; 
-							<!-- !!!!! обязательно ??? потом подправить -->
-						</li>
-					</div>
-
-
-
-
-
-
-
-
-			<div id="catalog4" class="catalog_upper" >
-						<div class="catalog-title"><span>Каталог недвижимости "Доминанта"</span></div>
-
-						<div class="catalog">
-
-
-							<div class="col-md-12">
-								<br>
-								<div id="myCarousel4" class="carousel slide" data-ride="carousel" >
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
-										<li data-target="#myCarousel4" data-slide-to="1"></li>
-										<li data-target="#myCarousel4" data-slide-to="2"></li>
-										<li data-target="#myCarousel4" data-slide-to="3"></li>
-									</ol>
-
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner" role="listbox">
-
-
-										<?php
-										foreach (range(0, 5) as $key => $value) {?>
-										<div class="item <?= $value==0?'active':'';?> ">
-											<div class="wrap_carousele">
-
-
-
-
-												<?php foreach (range(0, 2) as $k => $v) {?>
-
-
-												<div class="col-sm-4 clear_padding wrap_item">
-													<div class="col-sm-12 clear_padding">
-														<div class="thumbnail right-caption span4">
-															<img class="span2" src="/img/verstka/img2-320x220.jpg" width="140" alt="">
-															<div class="caption">
-																<h5 class="title_new"><a href="">Жилой комплекс "Сити Парк"</a></h5>
-																<div class="address_new">Сити-парк – это комплекс из 4 жилых 9-16-этажных д..</div>
-																<div class="sqauare_new">Общая площадь: 88м<sup>2</sup></div>
-																<div class="wrap_table">
-																	<table class="table-responsive">
-
-																		<tbody>
-																			<tr class="price_uan_new">
-																				<td>Цена:</td>
-																				<td>3 333 333 UAN</td>
-																			</tr>
-																			<tr class="price_uan_new">
-																				<td></td>
-																				<td>89 333 $</td>     
-																			</tr>
-																		</tbody>
-																	</table>
-																</div>
-																<p>
-																	<div class="details_new pull-right"><a href="">Подробней..</a></div>
-																</p>
-															</div>
-														</div>
-													</div>
-
-												</div>
-
-
-												<div class="col-sm-4 clear_padding wrap_item">
-													<div class="col-sm-12 clear_padding">
-														<div class="thumbnail right-caption span4">
-															<img class="span2" src="/img/verstka/img2-320x220.jpg" width="140" alt="">
-															<div class="caption">
-																<h5 class="title_new"><a href="">Жилой комплекс "Сити Парк"</a></h5>
-																<div class="address_new">Сити-парк – это комплекс из 4 жилых 9-16-этажных д..</div>
-																<div class="sqauare_new">Общая площадь: 88м<sup>2</sup></div>
-																<div class="wrap_table">
-																	<table class="table-responsive">
-
-																		<tbody>
-																			<tr class="price_uan_new">
-																				<td>Цена:</td>
-																				<td>3 333 333 UAN</td>
-																			</tr>
-																			<tr class="price_uan_new">
-																				<td></td>
-																				<td>89 333 $</td>     
-																			</tr>
-																		</tbody>
-																	</table>
-																</div>
-																<p>
-																	<div class="details_new pull-right"><a href="">Подробней..</a></div>
-																</p>
-															</div>
-														</div>
-													</div>
-
-												</div>
-
-												<?php }
-												?>
-
-
-
-											</div>
-										</div>  
-										<?php }
-										?>
-
-
-
-
-									</div>
-
-									<!-- Left and right controls -->
-									<a class="left carousel-control" href="#myCarousel4" role="button" data-slide="prev">
-										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#myCarousel4" role="button" data-slide="next">
-										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-										<span class="sr-only">Next</span>
-									</a>
-								</div>
-							</div>
-
-
-
-						</div>
-						<li >
-							&nbsp; 
-							<!-- !!!!! обязательно ??? потом подправить -->
-						</li>
-					</div>
 
 
 

@@ -12,7 +12,7 @@ include_once 'includes/header.php';
 </style>
 <script type="text/javascript">
 	<?php
-	//include_once 'js/adg-galery/room.js';
+	include_once 'js/room.js';
 	?>
 
 </script>
@@ -38,8 +38,8 @@ include_once 'includes/header.php';
 <div class="container">
 	<div class="row">
 		<ol class="breadcrumb">
-			<li class="breadcrumb-item"><a  class="clear_link"  href="#">Доминанта</a></li>
-			<li class="breadcrumb-item"><a  class="clear_link"  href="#">Library</a></li>
+			<li class="breadcrumb-item"><a  class="clear_link"  href="">Доминанта</a></li>
+			<li class="breadcrumb-item"><a  class="clear_link"  href="">Library</a></li>
 			<li class="breadcrumb-item active">Поиск</li>
 		</ol>
 		<div class="backtolist"><a class="btn btn-default" href="">Вернуться к списку</a>	</div>
@@ -100,87 +100,49 @@ include_once 'includes/header.php';
 				<div id="catalog" class="catalog_upper">
 					<!--   <div class="container"> -->
 					<div class="row">
-						<div class="col-sm-12">
 
-<div id="myCarouse_r" class="carousel slide" data-ride="carousel" data-interval="false">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarouse_r" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarouse_r" data-slide-to="1"></li>
-      <li data-target="#myCarouse_r" data-slide-to="2"></li>
-      <li data-target="#myCarouse_r" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-     
-     <!--  <a class="fancybox" rel="group" href="big_image_1.jpg"><img src="small_image_1.jpg" alt="" /></a> -->
-
+<div class="col-sm-12">
+<div class="up_slider">
+ <ul class="bxslider1 ">
 
      <?php foreach (range(0, 8) as $key => $value) { ?> 
-
-      <div class="item <?= $value==0?'active':''; ?> ">
-      <div class="wrap_img">
-       <a class="fancybox" rel="group" href="/img/verstka/img2-500x350.jpg"> <img class="full_with_img " src="/img/verstka/img2-500x350.jpg" alt="Chania"> </a></div>
-      </div>
-  <?php } ?>
-    </div>
-
-    <!-- Left and right controls -->
-  <!--   <a class="left carousel-control" href="#myCarouse_r" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarouse_r" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a> -->
+    <li>
+  <div class="wrap_img">
+  <a class="fancybox" rel="group" href="/img/verstka/img2-500x350.jpg"> <img src="/img/verstka/img2-500x350.jpg" class="full_with_img" alt="Chania"> </a>
   </div>
+  </li>
+    <?php } ?>
+
+</ul>
+ </div>
+<div id="bx-pager-r">
 
 
 
 
 
+ <ul class="bxslider2">
+     <?php foreach (range(0, 8) as $key => $value) { ?> 
+ <li>
+  <a data-slide-index="<?=$value;?>" href=""><img class="img-thumbnail" src="/img/verstka/img2-500x350.jpg" />
+ </a>
+ </li>
+     <?php } ?>
 
-
-
-						</div>
-						<div class="col-sm-12">
-					
-
-<!-- 	<p>
-		<a class="fancybox" href="/img/verstka/img2-500x350.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="/img/verstka/img2-500x350.jpg" alt="" /></a>
-
-		<a class="fancybox" href="/img/verstka/img2-500x350.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp"><img src="/img/verstka/img2-500x350.jpg" alt="" /></a>
-
-		<a class="fancybox" href="/img/verstka/img2-500x350.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon"><img src="/img/verstka/img2-500x350.jpg" alt="" /></a>
-
-		<a class="fancybox" href="/img/verstka/img2-500x350.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="/img/verstka/img2-500x350.jpg" alt="" /></a>
-	</p> -->
-	<p>
-		<!-- Контейнер с адаптиными блоками -->
-<div class="masonry">
-<?php foreach (range(0,13) as $key => $value) { ?>
- <!-- Адаптивные блоки с содержанием -->
-   <!-- <div class="item"> -->
-          	<a class="fancybox" href="/img/verstka/img2-500x350.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="/img/verstka/img2-500x350.jpg" class="img-thumbnail" alt="" /></a>
-   <!--  </div> -->
-    <!-- Конец адаптивных блоков с содержанием -->
-
-<?php } ?>
-   
-
-
- 
+ </ul>
 </div>
-    <!-- Конец контейнера с адаптивными блоками -->
-
-	</p>
 
 
-                        
 
-						</div>
+<style type="text/css">
+
+</style>
+
+</div>
+
+
+
+
 <div class="col-sm-6">
 	
  <div class="wrap_p">
@@ -274,15 +236,15 @@ include_once 'includes/header.php';
 				<!-- end item catalo room -->
 <!--               <div class="col-md-12">
               	<ul class="pagination">
-  <li><a href="#">«</a></li>
-  <li><a href="#">1</a></li>
-  <li><a class="active" href="#">2</a></li>
-  <li><a href="#">3</a></li>
-  <li><a href="#">4</a></li>
-  <li><a href="#">5</a></li>
-  <li><a href="#">6</a></li>
-  <li><a href="#">7</a></li>
-  <li><a href="#">»</a></li>
+  <li><a href="">«</a></li>
+  <li><a href="">1</a></li>
+  <li><a class="active" href="">2</a></li>
+  <li><a href="">3</a></li>
+  <li><a href="">4</a></li>
+  <li><a href="">5</a></li>
+  <li><a href="">6</a></li>
+  <li><a href="">7</a></li>
+  <li><a href="">»</a></li>
 </ul>
 
               </div> -->
@@ -434,7 +396,7 @@ include_once 'includes/header.php';
 					<!-- end news box -->
 
 					<div class="news-box viewed_rooms hide">
-						<div class="news-title"><a href="#">Недавно смотрели</a> </div>
+						<div class="news-title"><a href="">Недавно смотрели</a> </div>
 
 
            <?php
@@ -446,7 +408,7 @@ include_once 'includes/header.php';
 									<h4 class="clear_link">85 000 $</h4>
 									<p>г. Одесса</p>
 									<p>ул. Балковская 95а</p>
-									<!-- <p><a href="#" class="clear_link">Вернуться</a></p> -->
+									<!-- <p><a href="" class="clear_link">Вернуться</a></p> -->
 								</div>
 							</div>
 						</a>

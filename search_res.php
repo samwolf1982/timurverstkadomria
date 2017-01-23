@@ -35,7 +35,7 @@ include_once 'includes/carusele.php';
 			<div class="left-site-bar">
 
 				<div class="news-box">
-					<div class="news-title-obj"><a href="#">Объекты на 21.01.17</a> </div>
+					<div class="news-title-obj"><a href="">Объекты на 21.01.17</a> </div>
 
 					<table class="table table-striped obj_table">
 
@@ -124,9 +124,9 @@ include_once 'includes/carusele.php';
 
 				</div>
 				<div class="col-sm-6 col-md-12 wrap_button">
-					<div class="col-md-6 text-center "><a href="#" class="btn btn-default btn-block" > онлайн консультация специалиста</a></div>
-					<div class="col-md-6 text-center hide "><a href="#" class="btn btn-default btn-block" > заказать звонок</a></div>
-					<div class="col-md-6 text-center "><a href="#" class="btn btn-default btn-block" > поиск</a></div>
+					<div class="col-md-6 text-center "><a href="" class="btn btn-default btn-block" > онлайн консультация специалиста</a></div>
+					<div class="col-md-6 text-center hide "><a href="" class="btn btn-default btn-block" > заказать звонок</a></div>
+					<div class="col-md-6 text-center "><a href="" class="btn btn-default btn-block" > поиск</a></div>
 				</div>
 			</form>
 
@@ -140,8 +140,8 @@ include_once 'includes/carusele.php';
 <div class="container">
 	<div class="row">
 		<ol class="breadcrumb">
-			<li class="breadcrumb-item"><a  class="clear_link"  href="#">Доминанта</a></li>
-			<li class="breadcrumb-item"><a  class="clear_link"  href="#">Library</a></li>
+			<li class="breadcrumb-item"><a  class="clear_link"  href="">Доминанта</a></li>
+			<li class="breadcrumb-item"><a  class="clear_link"  href="">Library</a></li>
 			<li class="breadcrumb-item active">Поиск</li>
 		</ol>
 	</div>
@@ -194,7 +194,7 @@ include_once 'includes/carusele.php';
 					<div class="row">
 						<div class="col-sm-4">
 
-							<a class="open_fancybox" href="#">
+							<a class="open_fancybox" href="">
 								<img class="img-thumbnail img-responsive" src="/img/verstka/78787878-320x220.jpg" alt=""/>
 							</a>
 
@@ -260,15 +260,15 @@ include_once 'includes/carusele.php';
 				<!-- end item catalo room -->
               <div class="col-md-12">
               	<ul class="pagination">
-  <li><a href="#">«</a></li>
-  <li><a href="#">1</a></li>
-  <li><a class="active" href="#">2</a></li>
-  <li><a href="#">3</a></li>
-  <li><a href="#">4</a></li>
-  <li><a href="#">5</a></li>
-  <li><a href="#">6</a></li>
-  <li><a href="#">7</a></li>
-  <li><a href="#">»</a></li>
+  <li><a href="">«</a></li>
+  <li><a href="">1</a></li>
+  <li><a class="active" href="">2</a></li>
+  <li><a href="">3</a></li>
+  <li><a href="">4</a></li>
+  <li><a href="">5</a></li>
+  <li><a href="">6</a></li>
+  <li><a href="">7</a></li>
+  <li><a href="">»</a></li>
 </ul>
 
               </div>
@@ -305,7 +305,7 @@ include_once 'includes/carusele.php';
 					<!-- end news box -->
 
 					<div class="news-box viewed_rooms">
-						<div class="news-title"><a href="#">Недавно смотрели</a> </div>
+						<div class="news-title"><a href="">Недавно смотрели</a> </div>
 
 
            <?php
@@ -317,7 +317,7 @@ include_once 'includes/carusele.php';
 									<h4 class="clear_link">85 000 $</h4>
 									<p>г. Одесса</p>
 									<p>ул. Балковская 95а</p>
-									<!-- <p><a href="#" class="clear_link">Вернуться</a></p> -->
+									<!-- <p><a href="" class="clear_link">Вернуться</a></p> -->
 								</div>
 							</div>
 						</a>
@@ -450,11 +450,11 @@ include_once 'includes/carusele.php';
 						</div>
 
 						<!-- Left and right controls -->
-						<a class="left carousel-control  hide" href="#myCarousel5" role="button" data-slide="prev">
+						<a class="left carousel-control  hide" href="myCarousel5" role="button" data-slide="prev">
 							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 							<span class="sr-only">Previous</span>
 						</a>
-						<a class="right carousel-control hide" href="#myCarousel5" role="button" data-slide="next">
+						<a class="right carousel-control hide" href="myCarousel5" role="button" data-slide="next">
 							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 							<span class="sr-only">Next</span>
 						</a>

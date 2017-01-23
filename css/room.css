@@ -133,7 +133,8 @@ border-bottom: 1px dotted #9F1D35;
 }
 
 .total_watch{
-
+    padding-top: 0.5em;
+    padding-right: 1.5em;
 }
 #id_room,.label_id_room{
 
@@ -148,6 +149,7 @@ border-bottom: 1px dotted #9F1D35;
 	    font-size: large;
     /*text-indent: 0.5em;*/
         padding: inherit;
+        padding-top: 1.5em;
 }
 .panel-body{
 	text-indent: 0.5em;
@@ -290,3 +292,57 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 textarea{
   padding-left: 1em;
 }
+
+
+  .bx-wrapper .bx-pager {
+    bottom: -95px;
+  }
+  
+  .bx-wrapper .bx-pager a {
+    border: solid #ccc 1px;
+    display: block;
+    margin: 0 5px;
+    padding: 3px;
+  }
+  
+  .bx-wrapper .bx-pager a:hover,
+  .bx-wrapper .bx-pager a.active {
+    border: solid #5280DD 1px;
+  }
+  
+  .bx-wrapper {
+    margin-bottom: 0.1em;
+  }
+ .up_slider .bx-prev,.up_slider .bx-next,.up_slider .bx-pager-item ,.up_slider .bx-pager-link{
+ 	display: none;
+ }
+
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+   display: none;
+}
+.bx-wrapper .bx-pager a:hover, .bx-wrapper .bx-pager a.active {
+   display: none;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+	display: none;
+}
+
+
+
+
+
+
+ .bx-wrapper .bx-controls-direction a {
+ 	z-index: auto;
+ }
+
+ .wrap_content{
+ 	padding-top: 1.5em;
+ }
+ .sortline *{
+ 	padding-top: 0.6em;
+ }
+/* .up_slider img{
+ 	width: 100%;
+ }*/

@@ -1,0 +1,52 @@
+		.flip-clock-wrapper ul {
+        background: white;
+    }
+
+        .flip-clock-wrapper ul li a div.up:after {
+            background-color: #fff;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .flip-clock-wrapper ul li a div div.inn {
+            
+    color: #a42465;
+            text-shadow: 0 1px 1px #555;
+            background-color: white;
+        }
+        .flip-clock-divider{
+        	display: none;
+        }
+        .flip-clock-wrapper>.flip:last-child{
+        	display:none;
+        }
+
+
+        .clock{
+ 
+display: -webkit-inline-flex;
+display: -moz-inline-flex;
+display: -ms-inline-flex;
+display: -o-inline-flex;
+display: inline-flex;
+        }
+
+        .clock{
+    zoom: 0.4;
+    -moz-transform: scale(0.4);
+    margin: 0;
+
+}
+.flip-clock-wrapper{
+    margin: 0;
+}
+
+.buy_text{
+    position: relative;
+       top: 1.7em;
+    font-size: large;
+}
+.fill_button{
+        background-color: #a42465;
+        color: white;
+        padding-top: 0;
+}

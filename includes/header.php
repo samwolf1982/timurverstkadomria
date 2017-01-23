@@ -32,13 +32,21 @@
 	<script src="docs/assets/js/ie-emulation-modes-warning.js"></script>
 
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<!-- <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
-	<link rel="stylesheet" href="libs/slider/jquery.bxslider.css" />
+	<link rel="stylesheet" href="libs/slider/jquery.bxslider.css" /> -->
+<link rel="stylesheet" href="/bower_components/fancybox/source/jquery.fancybox.css" />
+<link rel="stylesheet" href="/bower_components/flipclock/compiled/flipclock.css" />
+<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" href="/bower_components/bxslider-4/dist/jquery.bxslider.css" />
+
+
+
+<link rel="stylesheet" href="css/main.css"
 </head>
 <body>
 	<!--[if lt IE 9]>
@@ -49,10 +57,69 @@
 	<![endif]-->
 
 
+<!--  bootstrap: [
+    '/bower_components/bootstrap/less/bootstrap.less',
+    '/bower_components/bootstrap/dist/js/bootstrap.js'
+  ],
+  fancybox: [
+    '/bower_components/fancybox/source/jquery.fancybox.css',
+    '/bower_components/fancybox/source/jquery.fancybox.js',
+    '/bower_components/fancybox/source/blank.gif',
+    '/bower_components/fancybox/source/fancybox_loading.gif',
+    '/bower_components/fancybox/source/fancybox_loading@2x.gif',
+    '/bower_components/fancybox/source/fancybox_overlay.png',
+    '/bower_components/fancybox/source/fancybox_sprite.png',
+    '/bower_components/fancybox/source/fancybox_sprite@2x.png',
+    '/bower_components/fancybox/source/jquery.fancybox.pack.js'
+  ],
+  flipclock: [
+    '/bower_components/flipclock/compiled/flipclock.js',
+    '/bower_components/flipclock/compiled/flipclock.css'
+  ],
+  'jquery-mousewheel': '/bower_components/jquery-mousewheel/jquery.mousewheel.js',
+  jquery: '/bower_components/jquery/dist/jquery.js' -->
 
 
- <script src="libs/jquery/jquery-1.11.1.min.js"></script> 
-<script src="docs/dist/js/bootstrap.min.js"></script>
+
+
+ <script src="/bower_components/jquery/dist/jquery.js"></script> 
+  <script src="/bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/bower_components/fancybox/source/jquery.fancybox.js"></script> 
+ <script src="/bower_components/fancybox/source/jquery.fancybox.pack.js"></script>
+
+ <script src="/bower_components/flipclock/compiled/flipclock.js"></script> 
+  <script src="/bower_components/bxslider-4/dist/jquery.bxslider.js"></script> 
+<!--   <script src="/bower_components/countdown/src/countdown.js"></script>  -->
+
+<script src="/bower_components/waypoints/lib/noframework.waypoints.js"></script> 
+
+  
+
+
+   
+    
+
+   
+
+
+	
+<!-- 	<script src="/bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+	<script src="/bower_components/fancybox/source/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="libs/slider/jquery.bxslider.min.js"></script> -->
+
+
+
+
+<!--   <script src="libs/jquery/jquery-1.11.1.min.js"></script>  -->
+<!-- <script src="docs/dist/js/bootstrap.min.js"></script>
 
 	
 	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
@@ -64,7 +131,12 @@
 	<script src="libs/countdown/jquery.countdown.min.js"></script>
 	<script src="libs/countdown/jquery.countdown-ru.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
-	<script src="libs/slider/jquery.bxslider.min.js"></script>
+	<script src="libs/slider/jquery.bxslider.min.js"></script> -->
+
+
+
+
+
 
 
 <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDB2kS5Y_XmTaIwC2h0uFxml1SDnrqYqnw&callback=initMap"
@@ -85,7 +157,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Доминанта</a>
+				<a class="navbar-brand" href="/">Доминанта</a>
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
