@@ -117,7 +117,7 @@ broni_info">Наша команда</h1>
 
     <tbody>
     <tr>
-        <td style="padding-top: 0;">Адресс:</td>
+        <td style="padding-top: 0;">Адрес:</td>
         <td style="padding-top: 0;">magnam illo distinctio</td>   
       </tr>
       <tr>

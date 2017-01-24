@@ -402,11 +402,6 @@ font-weight: bold;
 .caption p{
   margin-bottom: 0;
 }
-
-.caption{
-      font-family: 'Open Sans Condensed', sans-serif;
-    color: #000000;
-}
 .clear_table td{
   padding-top: 0;
 }
@@ -527,3 +522,84 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
     margin: 0;
 }
 
+
+.tel{
+  color: #a42465;
+}
+
+
+.wrap_map{
+  padding-top: 2em;
+      margin-bottom: 60px;
+    border: 1px rgba(159,20,90,1) solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+/*.thumbnail a>img.span3, .thumbnail>img.span3 {
+    width: 65px;
+    height: 65px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}*/
+.wrap_price p{
+ color: rgba(159,20,90,1);
+
+}
+
+.info_panel p{
+ font-size: small;
+ padding-top: 0.5em;
+ text-align: right;  
+}
+
+
+.info_panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+   border: 1px rgba(159,20,90,1) solid;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.wrap_map2{
+     padding: 0.5em;
+        margin-left: -0.5em;
+            margin-bottom: 0.5em;
+    border: 1px rgba(159,20,90,1) solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.fill_button{
+   height: 3.5em;
+    padding-top: 1em;
+
+  }
+  #s_id{
+    padding-left: 9em;
+  }
+
+
+  .filial{
+    padding: 0;
+  }
+
+  .some_wrap{
+        padding: 0.5em;
+         margin-left: 1em;
+    border: 1px rgba(159,20,90,1) solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  .wrap_contact_form {
+     margin-top: 0;
+    margin-left: 1em;
+}
