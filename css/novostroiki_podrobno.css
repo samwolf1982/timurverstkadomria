@@ -158,8 +158,8 @@ display: inline-flex;
 * have a image and a text title.
 */
 .featured-article {
-    width: 482px;
-    height: 350px;
+    width: 90%;
+    height: 450px;
     position: relative;
     margin-bottom: 1em;
 }
@@ -351,4 +351,43 @@ display: inline-flex;
 #carousel-pager .carousel-control.right {
     top: initial;
     width: 100%;
+}
+
+
+#thumbs2,.featured-article img{
+    height: 450px;
+}
+
+
+.main_image{
+    /*width: 90%;*/
+}
+
+.left-site-bar {
+    padding-top: 0;
+}
+
+.news-title-obj {
+    height: 424px;
+}
+
+.some_info{
+    color: #a42465; 
+}
+.broni_info{
+    text-transform: uppercase;
+font-weight: bold;
+}
+
+.wrap_btn{
+    position: relative;
+    top: 9em;
+}
+.wrap_btn .btn{
+        white-space: inherit;
+}
+.wrap_btn .buy_text{
+    position: relative;
+    top: 0.7em;
+    font-size: large;
 }
