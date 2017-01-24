@@ -84,7 +84,10 @@
 
  <script src="/bower_components/jquery/dist/jquery.js"></script> 
   <script src="/bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+
 <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  
+
   <script src="/bower_components/fancybox/source/jquery.fancybox.js"></script> 
  <script src="/bower_components/fancybox/source/jquery.fancybox.pack.js"></script>
 

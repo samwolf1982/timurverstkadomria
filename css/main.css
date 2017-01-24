@@ -104,6 +104,20 @@ input.form-control{
 }
 
 
+.btn-default:hover {
+       color: white;
+    background-color: #a42465;
+    border-color: #adadad;
+}
+
+.btn:hover, .btn:focus, .btn.focus {
+       color: white;
+    text-decoration: none;
+}
+
+
+
+
 .navbar-default {
 	background-color: #a60c41;
 	font-size: x-large;
@@ -755,3 +769,11 @@ ul.pagination li a.active, .pagination>li>a:focus, .pagination>li>a:hover, .pagi
     background-color: #a42465;
 }
 /*.bx-wrapper, .bx-viewport, .bx-wrapper {height: 250px !important;}*/
+
+h1.title_room {
+    font-size: large;
+    font-weight: 700;
+}
+
+
+

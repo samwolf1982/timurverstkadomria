@@ -5,19 +5,19 @@ include_once 'includes/carusele.php';
 ?>
 <style type="text/css">
 	<?php
-	include_once 'css/novostroiki.css';
+	include_once 'css/novostroiki_podrobno.css';
 	//include_once 'libs/jquery.ad-gallery.css';
 	?>
 
 </style>
 <script type="text/javascript">
 	<?php
-	include_once 'js/novostroiki.js';
+	include_once 'js/novostroiki_podrobno.js';
 	?>
 
 </script>
 
-<script type="text/javascript" src="libs/adg-galery/jquery.ad-gallery.js"></script>
+<!-- <script type="text/javascript" src="libs/adg-galery/jquery.ad-gallery.js"></script> -->
 <!-- <div class="container">
   <div class="row">
     <div class="col-*-*"></div>
@@ -94,6 +94,29 @@ include_once 'includes/carusele.php';
 </div>
 <!-- end sortline -->
 
+<!-- button -->
+<div class="container sortline" style="padding-top: 1em;">
+	<div class="row" style="    font-family: 'Open Sans Condensed', sans-serif;">
+	 <div class="col-sm-12 pull-left" style="padding: 0;">
+	 <div class="btn btn-default ">
+         Вернуться к списку
+	 </div> 	
+	 </div>
+
+ <div class="col-sm-12 pull-left">
+	 <h1 class="title_room">Продажа двухкомнатной квартиры в Одессе по ул. Балковская</h1>	
+	 </div>	 
+
+<div class="col-sm-12">
+		<div class="col-sm-6"><a href="" class="clear_link"><i class="icon-like "></i>Добавить в избранное</a></div>
+	
+
+
+</div>
+
+</div>
+<!-- end button -->
+
 
 <!-- main wrap content -->
 <div class="container wrap_content">
@@ -101,68 +124,133 @@ include_once 'includes/carusele.php';
 	<div class="row">
 		<div  class="col-md-9" style="padding-right: 0; ">
 
-			<div class="wrap_catalog  nodecor"> 
+			<div class="wrap_catalog  "> 
+
+<div class="container wrap_test">
+    <div class="row">
 
 
-
-   <?php foreach (range(0, 2) as $k => $v) {?>
-
- <div class="col-sm-12 cards-row " > 
-   <?php foreach (range(0, 2) as $key => $value) {?>
-   
-    <div class="col-sm-6 col-md-4 ">
-  <a href=""> <div class="thumbnail">
-      <img src="https://1.bp.blogspot.com/-aFQ-W_KTFWQ/V6BdtpSUy6I/AAAAAAAAAH4/xD_U-BYItSsNvk1UGfROqLBzzU1h32oXQCLcB/s320/4-diwali-greeting-cards-by-ajay-acharya.jpg" alt="Bootstrap Thumbnail: Beautiful Bootstrap Thumbnail like Material Design Cards">
-      <div class="caption nopadding">
-      <div class="wrap_h3">
-        <h3>Bootstrap Thumbnail Customization</h3>
+        <div class="col-md-3">
+            <div id="carousel-pager" class="carousel slide " data-ride="carousel" data-interval="500000000">
+                <!-- Carousel items -->
+                <div class="carousel-inner vertical">
+                    <div class="active item">
+                        <img height="150px" src="http://placehold.it/600/f44336/000000&amp;text=First+Slide" class="img-responsive" data-target="#carousel-main" data-slide-to="0">
+                    </div>
+                    <div class="item active">
+                        <img height="150px" src="http://placehold.it/600/e91e63/000000&amp;text=Second+Slide" class="img-responsive" data-target="#carousel-main" data-slide-to="1">
+                    </div>
+                    <div class="item">
+                        <img height="150px" src="http://placehold.it/600/9c27b0/000000&amp;text=Third+Slide" class="img-responsive" data-target="#carousel-main" data-slide-to="2">
+                    </div>
+                </div>
+                
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-pager" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-pager" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
-        <p class="card-description card_region">
-        <strong class="clear_link">Район: </strong> <span style="text-transform: uppercase;"> Киевский </span> <strong>
-        </p>
-
-                <p class="  card-description ">
-        <strong class="clear_link">Цены: </strong> <span class="clear_link"> от 12 000 грн/м <sup>2</sup></span>
-        </p>
-  
-      </div>
     </div>
-</a>
 </div>
-<?php } ?>    
-</div>
+   
 
-<?php } ?> 
 
-				<!-- end item catalo room -->
-<!--               <div class="col-md-12">
-              	<ul class="pagination">
-  <li><a href="">«</a></li>
-  <li><a href="">1</a></li>
-  <li><a class="active" href="">2</a></li>
-  <li><a href="">3</a></li>
-  <li><a href="">4</a></li>
-  <li><a href="">5</a></li>
-  <li><a href="">6</a></li>
-  <li><a href="">7</a></li>
-  <li><a href="">»</a></li>
-</ul>
 
-              </div> -->
-              <div class="col-md-12">
-              	<ul class="pagination">
-  <li><a href="">«</a></li>
-  <li><a href="">1</a></li>
-  <li><a class="active" href="">2</a></li>
-  <li><a href="">3</a></li>
-  <li><a href="">4</a></li>
-  <li><a href="">5</a></li>
-  <li><a href="">6</a></li>
-  <li><a href="">7</a></li>
-  <li><a href="">»</a></li>
-</ul>
 
-              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+		<div class="col-md-9 col-lg-7 nodecor">
+			<!-- artigo em destaque -->
+			<div class="featured-article">
+				<a href="#">
+					<img src="/img/verstka/img2-500x350.jpg" alt="" class="thumb">
+				</a>
+				<div class="block-title">
+					<h2>Lorem ipsum dolor asit amet</h2>
+					<p class="by-author"><small>By Jhon Doe</small></p>
+				</div>
+			</div>
+			<!-- /.featured-article -->
+		</div>
+		<div class="col-md-3 col-lg-3">
+    <div id="carousel-r"  class="carousel thin" style="height: 300px; ">
+                <a class="prev"><span class="glyphicon glyphicon-chevron-up"></span></a>
+                <div class="window">
+                    <ul class="clr">     
+                        <li class="item">
+                            <img src="http://lorempixel.com/150/150/sports" alt="#Img desc#" width="150" height="150">
+                        </li>
+                        <li class="item">
+                            <img src="http://lorempixel.com/150/150" alt="#Img desc#" width="150" height="150">
+                        </li>
+                        <li class="item">
+                            <img src="http://lorempixel.com/150/150/sports" alt="#Img desc#" width="150" height="150">
+                        </li>
+                        
+                        <li class="item">
+                            <img src="http://lorempixel.com/150/150" alt="#Img desc#" width="150" height="150">
+                        </li>
+                        
+                        <li class="item">
+                            <img src="http://lorempixel.com/150/150/sports" alt="#Img desc#" width="150" height="150">
+                        </li>
+                        <li class="item">
+                            <img src="http://lorempixel.com/150/150" alt="#Img desc#" width="150" height="150">
+                        </li>
+                         <li class="item">
+                            <img src="http://lorempixel.com/150/150/sports" alt="#Img desc#" width="150" height="150">
+                        </li>
+                        <li class="item">
+                            <img src="http://lorempixel.com/150/150" alt="#Img desc#" width="150" height="150">
+                        </li>
+                        <li class="item">
+                            <img src="http://lorempixel.com/150/150/sports" alt="#Img desc#" width="150" height="150">
+                        </li>
+                         <li class="item">
+                            <img src="http://lorempixel.com/150/150" alt="#Img desc#" width="150" height="150">
+                        </li>
+                        <li class="item">
+                            <img src="http://lorempixel.com/150/150/sports" alt="#Img desc#" width="150" height="150">
+                        </li>
+                        
+                    </ul>
+                </div> <!-- .window -->
+                <a class="next"><span class="glyphicon glyphicon-chevron-down"></span></a>
+            </div> <!-- .carousel -->
+		</div>
+		<div class="col-lg-2"></div>
+	</div>
+	</div>
+
+
+
+
+
+
+
 
 
 			</div> 
@@ -293,7 +381,7 @@ include_once 'includes/carusele.php';
 
 				<div class="col-md-12">
 					<br>
-					<div id="myCarousel5" class="carousel slide" data-ride="carousel" >
+					<div id="myCarousel5" class="carousel vertical slide" data-ride="carousel" >
 						<!-- Indicators -->
 						<ol class="carousel-indicators">
 							<li data-target="#myCarousel5" data-slide-to="0" class="active"></li>

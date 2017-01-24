@@ -123,3 +123,10 @@ display: inline-flex;
         border-right: none;
         border-left: none;
     }
+
+    #map{
+            margin-top: -1em;
+    }
+    .title_ibj{
+        font-size: larger;
+    }

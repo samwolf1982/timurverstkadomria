@@ -68,7 +68,7 @@ include_once 'includes/fullscreenfilter.php';
   <a href="novostroiki.php"  target="_blank" class="btn btn-default btn-block ">Новостройки</a>
 
 
- <a href=""  target="_blank" class="btn btn-default btn-block ">Главная</a>
+ <a href="novostroiki_podrobno.php"  target="_blank" class="btn btn-default btn-block ">Новостройки подробно</a>
 
  <a href="" class="btn btn-default btn-block ">Главная</a>
  <a href="" class="btn btn-default btn-block ">Главная</a>
@@ -336,6 +336,7 @@ include_once 'includes/fullscreenfilter.php';
 		</script>
 
 
+<div id="map"></div>
 		<div class="container">
 			<!-- Example row of columns -->
 			<div class="row">
