@@ -14,7 +14,7 @@ var fancyGallery = []; // define gallery group
 });
 
     $('.bxslider2').bxSlider({
-       mode: 'vertical',
+       // mode: 'vertical',
     slideWidth: 200,
     
     minSlides: 1,

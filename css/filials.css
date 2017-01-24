@@ -389,5 +389,135 @@ font-weight: bold;
 .wrap_btn .buy_text{
     position: relative;
     top: 0.7em;
-    font-size: medium;
+    font-size: large;
+}
+
+.filial{
+
+}
+
+.thumbnail .caption .table td,.thumbnail .caption .table tr, .thumbnail{
+   border: none;
+}
+.caption p{
+  margin-bottom: 0;
+}
+.clear_table td{
+  padding-top: 0;
+}
+
+.news-box{
+  border: none;
+}
+
+.wrap_contact_form{
+  margin-top: 7em;
+}
+
+
+.page-header{
+
+}
+
+
+.contact-form-border {
+    width: 100%;
+       padding: 14px;
+    margin-bottom: 60px;
+    border: 1px rgba(159,20,90,1) solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.contact-form-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.expert-info {
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.expert-photo {
+    height: 184px;
+    width: 140px;
+    float: left;
+}
+
+
+.thumbnail a>img.span2, .thumbnail>img.span2 {
+    width: 130px;
+        height: 131px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0; 
+
+}
+.right-caption{
+  width: 100%;
+}
+.title_new{
+  -ms-text-align-last: right;
+  text-align-last: right;
+}
+.glyphicon-earphone{
+  /*right: 1em;*/
+  font-size: large;
+float: left;
+position: relative;
+margin-left: 4%;
+    /*font-size: xx-large;*/
+}
+.fa-mobile{
+float: left;
+position: relative;
+margin-left: 4%;
+    font-size: xx-large;
+
+}
+
+.form-field {
+    height: 46px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
+
+.form-field, .form-text-area {
+    border: 1px rgba(159,20,90,1) solid;
+}
+.form-field, .input-field input, .form-text-area, .input-area textarea, .form-submit {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.input-img {
+    height: 100%;
+    width: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.input-area, .input-field input, .input-area textarea {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+.form-field, .input-field input, .form-text-area, .input-area textarea, .form-submit {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+input[type='text']:active, input[type='text'], textarea:focus {
+    outline: none;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    padding: 0;
+    margin: 0;
 }

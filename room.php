@@ -291,47 +291,7 @@ include_once 'includes/header.php';
          <i class="pull-right2">Время работы офиса:
 пн-пт: с 09:00 до 21:00
 сб-вс: с 10:00 до 18:00</i>
-       <!--  <i class="" aria-hidden="true"></i>
-     <a href="" class="clear_link pull-left"><i class="icon-phone2 "></i>(048) 702-83-82, (048) 703-01-95</a> -->
-     <!-- <div class="col-sm-2"><img src="/img/verstka/phone2.png"></div>
-     <div class="col-sm-10"><h5 class="title_new"><a href="">(048) 702-83-82, (048) 703-01-95</a></h5></div> -->
 
-     
-
-     <!--  <h5 class="title_new"><a href="" class="clear_link pull-left"><i class="icon-phone2 "></i>(048) 702-83-82, (048) 703-01-95</a></h5> -->
-    <!--  <div class="expert-phone-numbers">
-
-                            <div class="expert-phone-number">
-                                <div class="phone-icon">
-                                    <img src="/img/verstka/phone2.png">
-                                </div>
-                                <div style="margin-left: 10px;">(048) 702-83-82, (048) 703-01-95</div>
-                            </div>
-                            <div class="expert-phone-number">
-                                <div class="mobile-icon">
-                                    <img src="/img/verstka/mobile.png">
-                                </div>
-                                <div style="margin-left: 13px;line-height: 25px;">(048) 771-68-39</div>
-                            </div>
-     </div> -->
-														<!-- 		<div class="wrap_table">
-																	<table class="table-responsive">
-
-																		<tbody>
-																			<tr class="price_uan_new">
-																				<td>Цена:</td>
-																				<td>3 333 333 UAN</td>
-																			</tr>
-																			<tr class="price_uan_new">
-																				<td></td>
-																				<td class=" pull-right">89 333 $</td>     
-																			</tr>
-																		</tbody>
-																	</table>
-																</div> -->
-															<!-- 	<p>
-																	<div class="details_new pull-right"><a href="">Подробней..</a></div>
-																</p> -->
 															</div>
 														</div>
 

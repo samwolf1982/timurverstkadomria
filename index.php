@@ -70,8 +70,8 @@ include_once 'includes/fullscreenfilter.php';
 
  <a href="novostroiki_podrobno.php"  target="_blank" class="btn btn-default btn-block ">Новостройки подробно</a>
 
- <a href="" class="btn btn-default btn-block ">Главная</a>
- <a href="" class="btn btn-default btn-block ">Главная</a>
+ <a href="filials.php" target="_blank" class="btn btn-default btn-block ">Филиал</a>
+ <a href="" target="_blank" class="btn btn-default btn-block ">Главная</a>
 
 					</div>
                         
