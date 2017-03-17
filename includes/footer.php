@@ -121,7 +121,7 @@
 
 
 			</script>
-
+<div id="map"></div>
 <script>
 	
   var map;

@@ -56,8 +56,8 @@ include_once 'includes/header.php';
 			<h1 class="title_room">Продажа двухкомнатной квартиры в Одессе по ул. Балковская</h1>
 		</div>
 		<div class="col-sm-12">
-		<div class="col-sm-6"><a href="" class="clear_link"><i class="icon-like "></i>Добавить в избранное</a></div>
-		<div class="col-sm-6">	<a class="btn btn-default pull-right" href="">Предложить торг</a></div>
+		<div class="col-sm-6 hide"><a href="" class="clear_link"><i class="icon-like "></i>Добавить в избранное</a></div>
+		<div class="col-sm-6 hide">	<a class="btn btn-default pull-right" href="">Предложить торг</a></div>
 
 		
 		</div>
@@ -65,7 +65,7 @@ include_once 'includes/header.php';
 			
 
 		</div>
-		<div class="col-sm-4 price_block">
+		<div class="col-sm-4 price_block hide">
 			<div class="col-sm-12 clear_link">89 000 $</div>
 			<div class="col-sm-12">1 100 $м<sup>2</sup></div>
 			<div class="col-sm-12">
@@ -184,7 +184,7 @@ include_once 'includes/header.php';
 	  <div class="panel-body ">
     <div class="send-request">
                    
-                    <span><a href="" class="clear_link pull-left"><i class="icon-like "></i>Добавить в избранное</a></span>
+                    <span><a href="" class="clear_link pull-left hide"><i class="icon-like "></i>Добавить в избранное</a></span>
                     
 
 <div class="next-object scale pull-right">
@@ -288,7 +288,7 @@ include_once 'includes/header.php';
 
          <p class="title_new"><span class="fa fa-mobile  clear_link"></span><i class="">(048) 702-83-82,<br> (048) 703-01-95</i> </p>
 
-         <i class="pull-right2">Время работы офиса:
+         <i class="pull-right2 hide">Время работы офиса:
 пн-пт: с 09:00 до 21:00
 сб-вс: с 10:00 до 18:00</i>
 

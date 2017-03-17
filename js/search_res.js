@@ -1,52 +1,57 @@
 
  $(document).ready(function(){ 	
 
-$('.open_fancybox').fancybox({
-    helpers : {
-        thumbs : {
-            stationary:true
-        }
-    }
-});
-
-$(".open_fancybox").click(function() {
-    
-    $.fancybox.open([
-        {
-            href : '/img/verstka/3333333.jpg',
-            title : 'manual 1st title'
-        },
-        {
-            href : 'http://fancyapps.com/fancybox/demo/2_b.jpg',
-            title : '2nd title'
-        },
-        {
-            href : 'http://fancyapps.com/fancybox/demo/3_b.jpg',
-            title : '3rd title'
-        }
-    ], {
-        nextEffect : 'none',
-        prevEffect : 'none',
-        padding    : 0,
-         type: 'image',
-        autoScale: true,
-        prevEffect: 'none',
-        nextEffect: 'none',
-
-        helpers    : {
-            title : {
-                type: 'over'  
-            },
-        thumbs: {
-                width: 50,
-                height: 50,
-                source: function (image) {
-                    return image.thumbnail;
-                },
-                position: 'bottom'  //'top', 'bottom'
-            }
-        }
+// $('.open_fancybox').fancybox({
+//     helpers : {
+//         thumbs : {
+//             stationary:true
+//         }
+//     }
+// });
+   $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
     });
+
+
+// $(".open_fancybox").click(function() {
+    
+//     $.fancybox.open([
+//         {
+//             href : '/img/verstka/3333333.jpg',
+//             title : 'manual 1st title'
+//         },
+//         {
+//             href : 'http://fancyapps.com/fancybox/demo/2_b.jpg',
+//             title : '2nd title'
+//         },
+//         {
+//             href : 'http://fancyapps.com/fancybox/demo/3_b.jpg',
+//             title : '3rd title'
+//         }
+//     ], {
+//         nextEffect : 'none',
+//         prevEffect : 'none',
+//         padding    : 0,
+//          type: 'image',
+//         autoScale: true,
+//         prevEffect: 'none',
+//         nextEffect: 'none',
+
+//         helpers    : {
+//             title : {
+//                 type: 'over'  
+//             },
+//         thumbs: {
+//                 width: 50,
+//                 height: 50,
+//                 source: function (image) {
+//                     return image.thumbnail;
+//                 },
+//                 position: 'bottom'  //'top', 'bottom'
+//             }
+//         }
+//     });
 
 
     //  $.fancybox([{
@@ -78,7 +83,7 @@ $(".open_fancybox").click(function() {
 
 
 // end
-});
+//});
 
 //   var map;
 // function initMap() {

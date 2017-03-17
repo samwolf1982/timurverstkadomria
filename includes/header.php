@@ -46,7 +46,7 @@
 
 
 
-<link rel="stylesheet" href="css/main.css"
+<link rel="stylesheet" href="css/main.css"/>
 </head>
 <body>
 	<!--[if lt IE 9]>

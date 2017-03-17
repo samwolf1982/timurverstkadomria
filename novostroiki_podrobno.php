@@ -109,7 +109,7 @@ include_once 'includes/carusele.php';
 <!-- button -->
 <div class="container sortline" style="padding-top: 1em;">
 	<div class="row" style="    font-family: 'Open Sans Condensed', sans-serif;">
-	 <div class="col-sm-12 pull-left" style="padding: 0;">
+	 <div class="col-sm-12 pull-right" style="padding: 0;">
 	 <div class="btn btn-default ">
          Вернуться к списку
 	 </div> 	
@@ -120,7 +120,7 @@ include_once 'includes/carusele.php';
 	 </div>	 
 
 <div class="col-sm-12" style="    padding-bottom: 1em;">
-		<div class="col-sm-6"><a href="" class="clear_link"><i class="icon-like "></i>Добавить в избранное</a></div>
+		<div class="col-sm-6 hide"><a href="" class="clear_link"><i class="icon-like "></i>Добавить в избранное</a></div>
 	
 
 
@@ -218,20 +218,7 @@ include_once 'includes/carusele.php';
 		<div class="col-sm-12">
 			<h2 class=""><a href="" class="clear_link"> Новострои Одессы ЖК 'Острова'</a></h2>
 		</div>
-		<div class="col-sm-12" style="text-indent: 0.5em;">
-			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam voluptas dignissimos ut corrupti dolores, maiores provident a debitis ipsam deserunt harum cumque hic unde, tempore accusamus aut similique. Qui, ducimus.</div>
-			<div>Natus eius aperiam commodi, rem dolore perspiciatis minima ducimus! Similique repellendus voluptatibus eligendi reiciendis omnis suscipit cupiditate sint possimus sapiente ratione consectetur explicabo impedit deleniti dignissimos porro non, molestias vitae.</div>
-			<div>Aperiam officia consequatur enim, totam, est velit odio officiis excepturi optio illum magnam illo distinctio culpa porro! Eaque dolores dolorum aspernatur consequatur beatae accusantium, fugiat. Quam laboriosam fugit hic alias.</div>
-			<div>Nisi delectus itaque ullam veniam doloremque eum repellat labore non et rerum inventore molestias, voluptatibus reiciendis, maiores cumque laborum in fugiat harum provident iure, commodi? Ut quam consectetur alias eum.</div>
-			<div>Eaque ipsum animi corporis magni ducimus rerum quos, distinctio placeat saepe tenetur, ratione eos similique? Veniam iste reprehenderit sapiente, perspiciatis cupiditate sit consequatur quasi quas repellendus neque vero quia atque!</div>
-			<div>Nemo ullam ipsam nulla. Rerum voluptate dolor temporibus repellat officiis ipsum nihil minus. Minus saepe voluptate, laborum similique id, autem eveniet totam quasi architecto deleniti perferendis. Consequatur harum, nesciunt excepturi.</div>
- <br>
-			 <h4 class="some_info">
-				Мадагаскар 1 дом сдан, Мадагаскар 2 дом сдан
-			</h4>
 
-		</div>
-           
 
            <div class="col-sm-6">
        <br>
@@ -269,12 +256,50 @@ include_once 'includes/carusele.php';
            <div class="col-sm-6">
            	
  <div class="wrap_btn">
+           	<div class="btn btn-block fill_button hide">
+
+	 <span class="buy_text ">Получить подробную консультацию у нашего специалиста</span>		
+	 </div>
+	 </div>
+           </div>
+
+
+
+
+		<div class="col-sm-12" style="text-indent: 0.5em;">
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam voluptas dignissimos ut corrupti dolores, maiores provident a debitis ipsam deserunt harum cumque hic unde, tempore accusamus aut similique. Qui, ducimus.</div>
+			<div>Natus eius aperiam commodi, rem dolore perspiciatis minima ducimus! Similique repellendus voluptatibus eligendi reiciendis omnis suscipit cupiditate sint possimus sapiente ratione consectetur explicabo impedit deleniti dignissimos porro non, molestias vitae.</div>
+			<div>Aperiam officia consequatur enim, totam, est velit odio officiis excepturi optio illum magnam illo distinctio culpa porro! Eaque dolores dolorum aspernatur consequatur beatae accusantium, fugiat. Quam laboriosam fugit hic alias.</div>
+			<div>Nisi delectus itaque ullam veniam doloremque eum repellat labore non et rerum inventore molestias, voluptatibus reiciendis, maiores cumque laborum in fugiat harum provident iure, commodi? Ut quam consectetur alias eum.</div>
+			<div>Eaque ipsum animi corporis magni ducimus rerum quos, distinctio placeat saepe tenetur, ratione eos similique? Veniam iste reprehenderit sapiente, perspiciatis cupiditate sit consequatur quasi quas repellendus neque vero quia atque!</div>
+			<div>Nemo ullam ipsam nulla. Rerum voluptate dolor temporibus repellat officiis ipsum nihil minus. Minus saepe voluptate, laborum similique id, autem eveniet totam quasi architecto deleniti perferendis. Consequatur harum, nesciunt excepturi.</div>
+ <br>
+			
+	
+  <div class="col-sm-6 ">
+  	 <h4 class="some_info">
+				Мадагаскар 1 дом сдан, Мадагаскар 2 дом сдан
+	 </h4><br><br><br><br><br><br><br>
+  </div>
+    <div class="col-sm-6 ">
+    			 <div class="wrap_btn">
            	<div class="btn btn-block fill_button">
 
 	 <span class="buy_text">Получить подробную консультацию у нашего специалиста</span>		
 	 </div>
 	 </div>
-           </div>
+
+
+
+    </div>
+    
+	
+
+
+		</div>
+           
+
+
 
           
 	

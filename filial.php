@@ -97,7 +97,7 @@ include_once 'includes/header.php';
 					<!-- filter -->
 
 
-					<div class="col-sm-12 col-md-12 col-lg-12">
+					<div class="col-sm-12 col-md-12 col-lg-12 hide">
 						<form action="" class="form-inline">
 							<div class="col-sm-6 col-md-12 wrap_fields">
 								<div class="row">
@@ -442,7 +442,7 @@ include_once 'includes/header.php';
 
 								<div class="contact-form-border">
 									<div class="contact-form-title page-header">
-										<h3 > <a href="" class="clear_link nodecor">Филиалы</a></h3>
+										<h3 > <a href="" class="clear_link nodecor">Директор</a></h3>
 									</div>
 
 									<div class="thumbnail right-caption span4">

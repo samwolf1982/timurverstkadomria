@@ -288,9 +288,7 @@ broni_info">Наша команда</h1>
 
          <p class="title_new"><span class="fa fa-mobile  clear_link"></span><i class="">(048) 702-83-82,<br> (048) 703-01-95</i> </p>
 
-         <i class="pull-right2">Время работы офиса:
-пн-пт: с 09:00 до 21:00
-сб-вс: с 10:00 до 18:00</i>
+         <i class="pull-right2">вставить ген директора</i>
 
 															</div>
 														</div>

@@ -69,9 +69,9 @@
 
 			</div>
 			<div class="col-sm-6 col-md-12 wrap_button">
-				<div class="col-md-4 text-center "><a href="#" class="btn btn-default btn-block" > онлайн консультация специалиста</a></div>
-				<div class="col-md-4 text-center "><a href="#" class="btn btn-default btn-block" > заказать звонок</a></div>
-				<div class="col-md-4 text-center "><a href="#" class="btn btn-default btn-block" > Найти</a></div>
+				<div class="col-md-4 text-center hide"><a href="#" class="btn btn-default btn-block" > онлайн консультация специалиста</a></div>
+				<div class="col-md-4 text-center hide"><a href="#" class="btn btn-default btn-block" > заказать звонок</a></div>
+				<div class="col-md-4 text-center pull-right"><a href="#" class="btn btn-default btn-block" > Найти</a></div>
 			</div>
 		</form>
 	</div>

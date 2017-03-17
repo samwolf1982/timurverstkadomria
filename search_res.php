@@ -149,7 +149,7 @@ include_once 'includes/carusele.php';
 <!-- end breadcrumb -->
 
 <!-- sortline -->
-<div class="container sortline">
+<div class="container sortline hide">
 	<div class="row" style="    font-family: 'Open Sans Condensed', sans-serif;">
 		<div class="col-sm-4 nopadding"><strong class="title_room">Квартиры</strong>
 			<a class="clear_link subscribe_link" href=""><span class="glyphicon glyphicon-envelope"></span> Подписаться на обновление базы</a>
@@ -174,92 +174,119 @@ include_once 'includes/carusele.php';
 <!-- end sortline -->
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- main wrap content -->
 <div class="container wrap_content">
 
-	<div class="row">
-		<div  class="col-md-10" style="padding-right: 0; ">
+    <div class="row">
+        <div  class="col-md-10" style="padding-right: 0; ">
 
-			<div class="wrap_catalog"> 
-
-
-
-
-
-				<?php  
-				foreach (range(0, 5) as $key => $value) { ?>
-
-				<div id="catalog" class="catalog_upper">
-					<!--   <div class="container"> -->
-					<div class="row">
-						<div class="col-sm-4">
-
-							<a class="open_fancybox" href="">
-								<img class="img-thumbnail img-responsive" src="/img/verstka/78787878-320x220.jpg" alt=""/>
-							</a>
-
-
-						</div>
-						<div class="col-sm-8">
-							<p class="title_item">Купить квартиру в г.Одесса по ул. Балковская</p>
-							<p><a class="clear_link" href="">Вторичная недвижимость</a></p>
-							<p>Стоимость: <i>85 000$</i></p>
-
-							<table class="table">
-
-								<tbody>
-									<tr>
-										<td>3 комнаты</td>
-										<td><a class="clear_link" href="">Приморский р-н</a></td>
-										<td>Общая - 42.5м<sup>2</sup></td>
-									</tr>
-									<tr>
-										<td>5 этаж</td>
-										<td><a class="clear_link" href="">Центр</a></td>
-										<td>Жилая - 21.5<sup>2</sup></td>
-									</tr>
-									<tr>
-										<td colspan="2"><a href="" class="btn btn-default">Смотреть все фото</a></td>
-
-										<td>Кухня - 21.5<sup>2</sup></td>
-									</tr>
-								</tbody>
-							</table>
-
-						</div>
-
-
-						<div class="col-sm-12 description_room">
-							<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iste assumenda voluptatum ratione quia, aperiam mollitia dolorem quibusdam ipsa ut expedita nihil perferendis asperiores consequatur reiciendis in provident iusto minima!</div>
-							<div>Non cum, voluptate perferendis dolores laborum debitis, fugiat dolorum iure repellendus vel placeat soluta cumque a, corporis, beatae doloremque laudantium? Quae expedita earum odit reiciendis aliquid rerum aspernatur hic dolore!</div>	
-
-						</div>
-						<div class="col-sm-4 text-center">
-							<a href="" class="clear_link"><i class="icon-map"></i>На карте</a>
-						</div>
-						<div class="col-sm-4 text-center">
-							<a href="" class="clear_link"><i class="icon-question"></i>Задать вопрос</a>
-						</div>
-						<div class="col-sm-4 text-center">
-							<a href="" class="clear_link"><i class="icon-like"></i>Добавить в избранное</a>
-						</div>
-
-					</div>
-					<!-- </div> -->
+            <div class="wrap_catalog"> 
 
 
 
 
-					<li >
-						&nbsp; 
-						<!-- !!!!! обязательно ??? потом подправить -->
-					</li>
-				</div>
 
-				<?php } ?>
-				<!-- end item catalo room -->
+                <?php  
+                foreach (range(0, 5) as $key => $value) { ?>
+
+                <div id="catalog" class="catalog_upper">
+                    <!--   <div class="container"> -->
+                    <div class="row">
+                        <div class="col-sm-4">
+ 
+                         <!--    <a class="open_fancybox" href="">
+                                <img class="img-thumbnail img-responsive" src="img/verstka/78787878-320x220.jpg" alt=""/>
+                            </a> -->
+                                <?php foreach (range(1,5) as $k => $v): ?>
+
+                    <div class="hidewrap <?=$v==1?'':'hide' ?>">
+                <a class=" fancybox" rel="ligthbox<?=$value; ?>" href="img/verstka/78787878-320x220.jpg">
+                    <img class="img-responsive" alt="" src="img/verstka/78787878-320x220.jpg" /> </a>
+                    </div>
+
+                               <?php endforeach ?>
+
+                      
+
+                        </div>
+                        <div class="col-sm-8">
+                            <p class="title_item">Купить квартиру в г.Одесса по ул. Балковская</p>
+                            <p><a class="clear_link" href="">Вторичная недвижимость</a></p>
+                            <p>Стоимость: <i>85 000$</i></p>
+
+                            <table class="table">
+
+                                <tbody>
+                                    <tr>
+                                        <td>3 комнаты</td>
+                                        <td><a class="clear_link" href="">Приморский р-н</a></td>
+                                        <td>Общая - 42.5м<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5 этаж</td>
+                                        <td><a class="clear_link" href="">Центр</a></td>
+                                        <td>Жилая - 21.5<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                                     <a class=" fancybox btn btn-default" rel="ligthbox<?=$value; ?>" href="img/verstka/78787878-320x220.jpg">
+                                                     Смотреть все фото
+                    </a>
+                                         
+
+                                        </td>
+
+                                        <td>Кухня - 21.5<sup>2</sup></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+
+                        <div class="col-sm-12 description_room">
+                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iste assumenda voluptatum ratione quia, aperiam mollitia dolorem quibusdam ipsa ut expedita nihil perferendis asperiores consequatur reiciendis in provident iusto minima!</div>
+                            <div>Non cum, voluptate perferendis dolores laborum debitis, fugiat dolorum iure repellendus vel placeat soluta cumque a, corporis, beatae doloremque laudantium? Quae expedita earum odit reiciendis aliquid rerum aspernatur hic dolore!</div>    
+
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <a href="" class="clear_link"><i class="icon-map"></i>На карте</a>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <a href="" class="clear_link"><i class="icon-question"></i>Задать вопрос</a>
+                        </div>
+                        <div class="col-sm-4 text-center hide">
+                            <a href="" class="clear_link"><i class="icon-like"></i>Добавить в избранное</a>
+                        </div>
+
+                    </div>
+                    <!-- </div> -->
+
+
+
+
+                    <li >
+                        &nbsp; 
+                        <!-- !!!!! обязательно ??? потом подправить -->
+                    </li>
+                </div>
+
+                <?php } ?>
+                <!-- end item catalo room -->
               <div class="col-md-12">
-              	<ul class="pagination">
+                <ul class="pagination">
   <li><a href="">«</a></li>
   <li><a href="">1</a></li>
   <li><a class="active" href="">2</a></li>
@@ -275,79 +302,79 @@ include_once 'includes/carusele.php';
 
 
 
-			</div> 
-			<!-- end wrap content -->
+            </div> 
+            <!-- end wrap content -->
 
 
 
 
-		</div>
+        </div>
 
 
-		<!-- side bar -->
-		<div class="col-md-2 text-center">
-			<div class="row">
-
-
-
-				<div class="left-site-bar">
-
-					<div class="news-box wrap_gogle_map">
-						<div id="map"></div>
-						<div class="pull-left">
-							<a href="" class="clear_link"><i class="icon-map"></i>На большой карте</a>
-						</div>
+        <!-- side bar -->
+        <div class="col-md-2 text-center">
+            <div class="row">
 
 
 
-					</div> 
+                <div class="left-site-bar">
 
-					<!-- end news box -->
+                    <div class="news-box wrap_gogle_map">
+                        <div id="map"></div>
+                        <div class="pull-left">
+                            <a href="" class="clear_link"><i class="icon-map"></i>На большой карте</a>
+                        </div>
 
-					<div class="news-box viewed_rooms">
-						<div class="news-title"><a href="">Недавно смотрели</a> </div>
+
+
+                    </div> 
+
+                    <!-- end news box -->
+
+                    <div class="news-box viewed_rooms">
+                        <div class="news-title"><a href="">Недавно смотрели</a> </div>
 
 
            <?php
            foreach (range(0,4) as $key => $value) { ?>
-         			<a href="" class="clear_link">
-							<div class="thumbnail  span4 clear_border">
-								<img src="http://placehold.it/120x160" alt="">
-								<div class="caption">
-									<h4 class="clear_link">85 000 $</h4>
-									<p>г. Одесса</p>
-									<p>ул. Балковская 95а</p>
-									<!-- <p><a href="" class="clear_link">Вернуться</a></p> -->
-								</div>
-							</div>
-						</a>
-         <?php  }?>			
+                    <a href="" class="clear_link">
+                            <div class="thumbnail  span4 clear_border">
+                                <img src="http://placehold.it/120x160" alt="">
+                                <div class="caption">
+                                    <h4 class="clear_link">85 000 $</h4>
+                                    <p>г. Одесса</p>
+                                    <p>ул. Балковская 95а</p>
+                                    <!-- <p><a href="" class="clear_link">Вернуться</a></p> -->
+                                </div>
+                            </div>
+                        </a>
+         <?php  }?>         
 
 
 
-					</div> 
-
-
-
-
-				</div>
-
-
-
-			</div>
-
-
-		</div>
-		<!-- end left sidebar -->
+                    </div> 
 
 
 
 
+                </div>
 
 
 
-	</div> 
-	<!-- end row -->
+            </div>
+
+
+        </div>
+        <!-- end left sidebar -->
+
+
+
+
+
+
+
+    </div> 
+    <!-- end row -->
 </div>
 <!--end  main wrap content -->
 
